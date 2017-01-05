@@ -1,0 +1,14 @@
+Log File for UAV project:
+
+2017-1-4: 
+Objective: Flash Ubuntu 16.04 to emmc of ODROID-XU4
+step by step instructions:
+http://odroid.com/dokuwiki/doku.php?id=en:odroid_flashing_tools
+image downloaded from here:
+http://odroid.com/dokuwiki/doku.php?id=en:xu3_release_linux_ubuntu
+MD5SUM:
+https://help.ubuntu.com/community/HowToMD5SUM
+df(disk filesystem) and dd(http://unix.stackexchange.com/questions/170768/what-does-dd-stand-for):
+https://www.raspberrypi.org/documentation/installation/installing-images/linux.md
+ODROID-XU4 startup:
+username: odroid; password: odroid
