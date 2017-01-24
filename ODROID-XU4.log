@@ -12,3 +12,18 @@ df(disk filesystem) and dd(http://unix.stackexchange.com/questions/170768/what-d
 https://www.raspberrypi.org/documentation/installation/installing-images/linux.md
 ODROID-XU4 startup:
 username: odroid; password: odroid
+
+2017-1-14:
+Several Problems with the current Odroid:
+Emmc module does not work consistantly. When plugging in power, most of the times, red light is on, while blue light is not on, which indicates that the OS does not boot up. Flashing Ubuntu 16.04 again does not solve this problem. Also, flashing Ubuntu 14.04 to the same EMMC, and using it on Odroid U3 in our lab does not help. So the EMMC module probably broke down.
+The VGA to HDMI connecter heats up pretty quickly. And the old monitors in our lab does not have HDMI port.
+I ended up buying a new EMMC and a monitor for Odroid.  
+
+2017-1-24:
+The new EMMC and several Odroid accessories finally came in. Tested the new EMMC, works pretty well.
+
+Objective 1: SSH into Odroid
+
+Objective 2: Web Browsing using Ethernet
+UMich media access control address (MAC address) registration:
+http://caen.engin.umich.edu/network/connect-to-the-wired-network#find
